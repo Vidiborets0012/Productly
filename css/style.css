@@ -16,6 +16,19 @@ a {
   cursor: pointer;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1144px;
   padding: 0 10px;
@@ -26,8 +39,13 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
+  /* line-height: 24px; */
   color: #544837;
+}
+
+.title {
+  color: #2f281e;
 }
 
 .header {
@@ -80,4 +98,67 @@ margin-left: 24px;
   color: #fff;
   background-color: #f90;
   border: transparent;
+}
+
+.top {
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.top-inner {
+  padding: 88px 0;
+  background-image: url('../images/top-bg.svg');
+  background-size: 603px 495px;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.top-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  max-width: 518px;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 458px;
+  margin-bottom: 45px;
+}
+
+.top-btn {
+  display: inline-block;
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; */
+  color: #fff;
+  padding: 15px 41px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f90;
+  margin-right: 30px;
+}
+
+.top-link {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #f90;
+  padding-left: 28px;
+  position: relative;
+}
+
+.top-link::before {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  background-image: url('../images/top-play-icon.svg');
+  background-repeat: no-repeat;
+  left: 0;
+  top: 3px;
 }
