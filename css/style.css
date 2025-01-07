@@ -224,3 +224,41 @@ margin-left: 24px;
   width: 175px;
   margin: 0 auto;
 }
+
+.direction {
+  padding: 60px 0 80px;
+}
+
+.direction-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.direction-item-content {
+  padding: 26px 0 17px;
+  max-width: 486px;
+}
+
+.direction-item-pretitle {
+  padding-bottom: 3px;
+}
+
+.direction-item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+
+.direction-item-title-text {
+  margin-bottom: 30px;
+}
+
+.direction-item-text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.direction-item-subtitle {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
