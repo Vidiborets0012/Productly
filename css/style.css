@@ -288,19 +288,50 @@ margin-left: 24px;
 
 .team {
   padding: 80px 0 15px;
+  background-image: url('../images/team-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 80px center;
 }
 
 .team-inner {
   padding: 230px 0 380px;
-  background-image: url('../images/team-bg.svg');
+  /* background-image: url('../images/team-bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: top center; */
   position: relative;
 }
 
 .team-item {
   position: absolute;
+  width: 98px;
+  height: 98px;
+}
+
+.team-item-1 {
+  right: 95px;
+  top: 157px;
+}
+
+.team-item-2 {
+  left: 0;
+  top: 223px;
+}
+
+.team-item-3 {
+  right: 0;
+  bottom: 257px;
+}
+
+.team-item-4 {
+  left: 210px;
+  bottom: 233px;
+}
+
+.team-item-5 {
+  right: 364px;
+  bottom: 135px;
 }
 
 .team-box {
@@ -327,4 +358,66 @@ margin-left: 24px;
   border: none;
   border-radius: 4px;
   background-color: #f90;
+}
+
+.team-item-img {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.team-item-text {
+  background-color: #fff;
+  padding: 14px 20px 15px;
+  color: #2f281e;
+  box-shadow: 0 2px 8px 0 rgba(86, 117, 146, 0.1);
+  border-radius: 26px;
+  white-space: nowrap;
+  position: absolute;
+  right: 60px;
+  top: -41px;
+}
+
+.team-item-text.team-item-text-left {
+  right: auto;
+  left: 57px;
+  top: -41px;
+}
+
+.team-item-text-right::after,
+.team-item-text-right::before,
+.team-item-text-left::after,
+.team-item-text-left::before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.team-item-text-right::after,
+.team-item-text-left::after {
+  width: 17px;
+  height: 17px;
+  bottom: -5px;
+  right: 35px;
+}
+
+.team-item-text-right::before,
+.team-item-text-left::before {
+  width: 9px;
+  height: 9px;
+  bottom: -17px;
+  right: 17px;
+}
+
+.team-item-text-left::after {
+  left: 35px;
+  right: auto;
+}
+
+.team-item-text-left::before {
+  left: 17px;
+  right: auto;
 }
