@@ -234,6 +234,10 @@ margin-left: 24px;
   justify-content: space-between;
 }
 
+.direction-item + .direction-item {
+  margin-top: 100px;
+}
+
 .direction-item-content {
   padding: 26px 0 17px;
   max-width: 486px;
@@ -261,4 +265,23 @@ margin-left: 24px;
 .direction-item-subtitle {
   font-weight: 700;
   margin-bottom: 12px;
+}
+
+.direction-list-item {
+  padding-left: 65px;
+  position: relative;
+}
+
+.direction-list-item::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/direction-icon.svg');
+  left: 0;
+  top: 10px;
+}
+
+.direction-list-item + .direction-list-item {
+  margin-top: 30px;
 }
