@@ -6,4 +6,8 @@ $(function () {
         dots: true
         
     });
+
+    $('.menu-btn').on('click', function () {
+        $('.menu-list').toggleClass('menu-list-active')
+    });
  });

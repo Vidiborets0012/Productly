@@ -558,3 +558,42 @@ margin-left: 24px;
   border-radius: 4px;
   padding: 8px 15px 7px;
 }
+
+.menu-btn {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+  /* position: relative; */
+  display: none;
+}
+
+.menu-btn span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.menu-btn::before,
+.menu-btn::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+}
+
+.menu-btn::before {
+  top: 0;
+}
+
+.menu-btn::after {
+  bottom: 0;
+}
