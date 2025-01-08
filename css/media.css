@@ -82,6 +82,15 @@
   .team-inner {
     padding: 80px 0 80px;
   }
+
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+
+  .footer-form {
+    width: 481px;
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -102,6 +111,20 @@
 
   .tools-inner {
     padding-bottom: 60px;
+  }
+
+  /* .footer-form {
+    width: 100%;
+  } */
+
+  .footer .logo {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer-inner {
+    justify-content: space-around;
+    padding: 102px 28px;
   }
 }
 
@@ -172,5 +195,18 @@
 
   .slider-item {
     padding: 0;
+  }
+
+  /* .footer .logo {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer-inner {
+    justify-content: space-around;
+  } */
+
+  .footer-form {
+    width: 100%;
   }
 }
