@@ -28,6 +28,26 @@
     padding-right: 10px;
     margin-bottom: 30px;
   }
+
+  .direction-item-img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .direction-item {
+    flex-wrap: wrap;
+  }
+
+  .direction-item-img {
+    width: 80%;
+    margin: 0 auto 30px;
+    order: -1;
+  }
+
+  .direction-item-content {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -35,7 +55,8 @@
     padding: 35px 15px;
   }
 
-  .tools {
+  .tools,
+  .direction {
     padding: 25px 0 55px;
   }
 
@@ -97,8 +118,13 @@
     width: 100%;
   }
 
-  .tools-title {
+  .tools-title,
+  .direction-item-title {
     font-size: 24px;
     line-height: 30px;
+  }
+
+  .direction-item + .direction-item {
+    margin-top: 40px;
   }
 }
