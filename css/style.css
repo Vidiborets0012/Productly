@@ -421,3 +421,18 @@ margin-left: 24px;
   left: 17px;
   right: auto;
 }
+
+.blog {
+  padding: 15px 0 60px;
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  margin-bottom: 9px;
+}
+
+.blog-text {
+  margin-bottom: 55px;
+}
