@@ -14,6 +14,17 @@
     justify-content: flex-end;
     padding-top: 30px;
   }
+
+  .top-inner {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-inner {
+    padding: 35px 15px;
+    /* 60px между секциями */
+  }
 }
 
 @media screen and (max-width: 524px) {
@@ -54,5 +65,14 @@
     margin-right: 0;
     padding-top: 30px;
     text-align: center;
+  }
+
+  .top-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .top-btn {
+    margin-bottom: 25px;
   }
 }
