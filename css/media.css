@@ -18,12 +18,29 @@
   .top-inner {
     background-image: none;
   }
+
+  .tools-items {
+    flex-wrap: wrap;
+  }
+
+  .tools-item {
+    width: 50%;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .top-inner {
     padding: 35px 15px;
-    /* 60px между секциями */
+  }
+
+  .tools {
+    padding: 25px 0 55px;
+  }
+
+  .tools-inner {
+    padding-bottom: 60px;
   }
 }
 
@@ -74,5 +91,14 @@
 
   .top-btn {
     margin-bottom: 25px;
+  }
+
+  .tools-item {
+    width: 100%;
+  }
+
+  .tools-title {
+    font-size: 24px;
+    line-height: 30px;
   }
 }
